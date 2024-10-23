@@ -41,6 +41,10 @@ main{
   display: flex;
   justify-content:center ;
 }
+.col{
+  width: 1000px;
+  padding-top: 20px;
+}
 .menu{
   display: flex;
 }
