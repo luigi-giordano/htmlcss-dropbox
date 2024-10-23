@@ -1,0 +1,1 @@
+Riproduciamo lo screenshot del sito Dropbox
