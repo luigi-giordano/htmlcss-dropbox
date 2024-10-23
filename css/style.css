@@ -6,22 +6,52 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: black
+  
+}
+header .btn{
+  color: black;
+  text-decoration: none;
+}
+header nav li{
+  align-items: center;
+  padding: 5px;
+  margin: 0 15px;
+}
+
 main{
   padding-top: 70px;
 }
-main .col{
-  width: 1190px;
-  padding: 0 50px;
-}
+
 .container{
   margin: 0 auto;
-  max-width: 1190px;
+  width: 100%;
   background-color: #b4d0e7
 }
-.row{
+.dflex{
+  display: flex;
+  justify-content:center ;
+}
+.menu{
   display: flex;
 }
-.col{
-  width: 600px;
-  padding: 30 60px;
+.btn{
+  text-decoration: none;
+  border: 1px solid #0061ff;
+  background-color: #0061ff;   
+  width: 50px;              
+  text-align: center;      
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
 }
