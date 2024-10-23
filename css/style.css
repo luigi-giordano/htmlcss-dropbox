@@ -48,11 +48,15 @@ main{
   height: 280px;
   margin-top: 19px;
 }
-.container.jumbo-2{
-  display: flex;
-  
-  
 
+.col2{
+  
+  width: 60%;
+  height: 60%;
+}
+img{
+  max-width: 740px;
+  max-height: 460px;
 }
 .jumbotron{
   min-height: 740px;
