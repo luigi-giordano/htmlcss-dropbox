@@ -9,14 +9,14 @@ body{
 .debug{
   background-color: rgb(255, 115, 0);
 }
-.container.navbar{
+.navbar{
   height: 60px;
   background-color: white;
   
 }
 header .menu-logo{
   justify-content: center;
-  margin-bottom: 30px; 
+  margin-bottom: 0px; 
 }
 header nav ul{
   display: flex;
@@ -34,9 +34,7 @@ header nav li{
   margin: 0 15px;
 }
 
-main{
-  padding-top: 0px;
-}
+
 .container{
   margin: 0 auto;
   max-width: 1734px;
@@ -46,27 +44,43 @@ main{
 .container.jumbo{
   display: flex;
   height: 280px;
-  margin-top: 19px;
+  
+}
+.container.jumbo-2{
+  
+}
+.col1 p{
+  max-width: 360px;
+  max-height: 130px;
+}
+.col2{
+  width: 70%;
 }
 
-.col2{
+
+.col2 img{
+  width: 100%;
   
-  width: 60%;
-  height: 60%;
 }
-img{
-  max-width: 740px;
-  max-height: 460px;
+.button{
+  
+  text-align: center;
+  border: 1px solid #0061ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
+
 .jumbotron{
   min-height: 740px;
+  
   background-color: #b4d0e7;
 }
 .title{
   font-weight: bold;
   text-align: left;
-  font-size: 80px;
-  margin-top: 100px;
+  font-size: 100px;
+  margin-top: 50px;
   
 }
 .dflex{
@@ -77,7 +91,7 @@ img{
 .col{
   width: 1000px;
   padding-top: 20px;
-  margin-left: 0;
+  
 }
 .menu{
   display: flex;
