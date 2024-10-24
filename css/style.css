@@ -68,7 +68,7 @@ header nav li{
 
 .container.jumbo{
   display: flex;
-  height: 280px;
+  height: 200px;
   
 }
 .container.jumbo-2{
@@ -76,15 +76,22 @@ header nav li{
   
   padding-top: 50px;
 }
+
 .container-piano{
-  padding-top: 100px;
+  padding-top: 200px;
   max-width: 1400px;
   margin: 0 auto;
+  
 }
 .row{
   
   display: flex;
 }
+.titolo{
+  font-weight: bold;
+  font-size: 50px;
+}
+
 .title{
   font-weight: bold;
   text-align: left;
@@ -94,18 +101,20 @@ header nav li{
 }
 
 .col1{
+  position: relative;
+  top: 100px;
   
   max-width: 360px;
   max-height: 130px;
 }
 .col2{
+  position: relative;
+  top: 100px;
   width: 70%;
 }
 
-
 .col2 img{
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .button{
