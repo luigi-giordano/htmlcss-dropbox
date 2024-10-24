@@ -6,24 +6,41 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*
 .debug{
   border: 1px solid black;
   background-color: rgb(255, 115, 0);
 }
+  */
 .navbar{
   height: 60px;
-  background-color: white;
-  
+  background-color: white;  
 }
-.dflex{
-  
+.dflex{ 
+  display: flex;  
+}
+header .menu-logo{ 
+  justify-content: space-between; 
+}
+header nav ul{  
   display: flex;
-  
+  list-style: none;
+}
+header nav ul a{
+  text-decoration: none;
+  color: black
+}
+header nav li{ 
+  padding: 5px;
+  margin: 0 15px;
+}
+main li{
+  display: inline-block;
+  list-style-type: none;
 }
 .col{
   padding-top: 20px;
 }
-
 .btn{
   text-decoration: none;
   background-color: #0061ff; 
@@ -33,86 +50,51 @@ body{
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-
 }
-
-header .menu-logo{ 
-  justify-content: space-between; 
-}
-
-
-header nav ul{  
-  display: flex;
-  list-style: none;
-}
-header nav ul a{
-  text-decoration: none;
-  color: black
-}
-
-header nav li{
-  
-  
-  padding: 5px;
-  margin: 0 15px;
-}
-main li{
-  display: inline-block;
-  list-style-type: none;
-}
-
-.offer{
-  
+.offer{  
   margin-top: 50px;
 }
 .card{
  border: 1px solid black;
 }
-
 .container{
   margin: 0 auto;
   max-width: 1734px;
   width: 100%;
 }
-
 .container.jumbo{
   display: flex;
-  height: 200px;
-  
+  height: 200px;  
 }
 .container.jumbo-2{
   display: flex;
   padding-top: 50px;
 }
-
 .container-piano{
   padding-top: 200px;
   max-width: 1400px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
-.row{
-  
+.row{  
   display: flex;
+}
+.row.partner-features{
+  flex-wrap: wrap; 
 }
 .titolo{
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 50px;
 }
-
 .title{
   font-weight: bold;
   text-align: left;
   font-size: 100px;
   margin-top: 50px;
-  
 }
-
 .col1{
   position: relative;
   top: 100px;
-  
   max-width: 360px;
   max-height: 130px;
 }
@@ -121,9 +103,8 @@ main li{
   top: 100px;
   width: 70%;
 }
-
-.offer .col-piano{width: calc(100% / 3);
-  
+.offer .col-piano{
+  width: calc(100% / 3); 
 }
 img{
   max-width: 100%;
@@ -131,9 +112,14 @@ img{
 .col-piano{
   text-align: center;
 }
- 
+.col-features{
+  width: calc(100% / 3);
+}
 .col-piano.enterprise-bottom{
   width: 100%;
+}
+.row.partner-section{
+  padding-bottom: 150px;
 }
 .partner-section .img{
   width: 50%;
@@ -141,24 +127,37 @@ img{
 .partner-section .text{
   width: 50%;
 }
+.partner-features .img{
+  width: 50%;
+}
+.partner-features .text{
+  width: 50%;
+  text-align: center; 
+}
+.partner-features{
+  padding-bottom: 150px;
+}
+.card-features{
+  text-align: center;
+}
 .card-professional{
   text-align: left;
   padding-top: 20px;
-  margin-inline: 30px;
+  margin-inline: 10px;
 }
-
 .button{
-  
-  
   text-align: center;
   border: 1px solid #0061ff;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
-
 .jumbotron{
   min-height: 740px;
-  
   background-color: #b4d0e7;
+}
+.container-footer{
+  display: flex;
+  margin: 0 auto; 
+  height: 800px;
+  background-color: black;
 }
