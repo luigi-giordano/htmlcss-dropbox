@@ -14,11 +14,33 @@ body{
   background-color: white;
   
 }
-header .menu-logo{
-  justify-content: center;
-  margin-bottom: 0px; 
+.dflex{
+  
+  display: flex;
+  
 }
-header nav ul{
+.col{
+  padding-top: 20px;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #0061ff; 
+  color: white;           
+  text-align: center;      
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+header .menu-logo{ 
+  justify-content: space-between; 
+}
+
+
+header nav ul{  
   display: flex;
   list-style: none;
 }
@@ -29,11 +51,13 @@ header nav ul a{
 
 header nav li{
   
-  align-items: center;
+  
   padding: 5px;
   margin: 0 15px;
 }
-
+.card{
+ border: 1px solid black;
+}
 
 .container{
   margin: 0 auto;
@@ -47,9 +71,20 @@ header nav li{
   
 }
 .container.jumbo-2{
+  display: flex;
+  
+  padding-top: 50px;
+}
+.title{
+  font-weight: bold;
+  text-align: left;
+  font-size: 100px;
+  margin-top: 50px;
   
 }
-.col1 p{
+
+.col1{
+  
   max-width: 360px;
   max-height: 130px;
 }
@@ -64,6 +99,7 @@ header nav li{
 }
 .button{
   
+  
   text-align: center;
   border: 1px solid #0061ff;
   padding-top: 10px;
@@ -75,35 +111,4 @@ header nav li{
   min-height: 740px;
   
   background-color: #b4d0e7;
-}
-.title{
-  font-weight: bold;
-  text-align: left;
-  font-size: 100px;
-  margin-top: 50px;
-  
-}
-.dflex{
-  
-  display: flex;
-  
-}
-.col{
-  width: 1000px;
-  padding-top: 20px;
-  
-}
-.menu{
-  display: flex;
-}
-.btn{
-  text-decoration: none;
-  background-color: #0061ff; 
-  color: white;           
-  text-align: center;      
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-
 }
