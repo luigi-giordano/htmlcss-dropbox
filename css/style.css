@@ -84,7 +84,6 @@ header nav li{
   
 }
 .row{
-  
   display: flex;
 }
 .titolo{
@@ -115,6 +114,9 @@ header nav li{
 
 .col2 img{
   width: 100%; 
+}
+.col-piano.bottom{
+  
 }
 
 .button{
