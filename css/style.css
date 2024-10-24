@@ -117,8 +117,9 @@ header nav li{
 }
 .col-piano.bottom{
   width: 100%;
-  
-  
+}
+.partner-card img{
+  width: 50%;
 }
 
 .button{
