@@ -56,6 +56,9 @@ header nav li{
   padding: 5px;
   margin: 0 15px;
 }
+main li{
+  list-style-type: none;
+}
 .card{
  border: 1px solid black;
 }
@@ -111,14 +114,17 @@ header nav li{
   top: 100px;
   width: 70%;
 }
-
-.col2 img{
-  width: 100%; 
+img{
+  max-width: 100%;
 }
+
 .col-piano.bottom{
   width: 100%;
 }
-.partner-card img{
+.partner-section .img{
+  width: 50%;
+}
+.partner-section .text{
   width: 50%;
 }
 
