@@ -6,12 +6,13 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*
+
+/*# UTILS */
+
 .debug{
   border: 1px solid black;
   background-color: rgb(255, 115, 0);
 }
-  */
 .navbar{
   height: 60px;
   background-color: white;  
@@ -19,6 +20,9 @@ body{
 .dflex{ 
   display: flex;  
 }
+
+/*# HEADER */
+
 header .menu-logo{ 
   justify-content: space-between; 
 }
@@ -34,12 +38,18 @@ header nav li{
   padding: 5px;
   margin: 0 15px;
 }
+
+/*# MAIN */
+
 main li{
-  display: inline-block;
+  
   list-style-type: none;
 }
 .col{
   padding-top: 20px;
+}
+ol.prf li{
+  padding: 20px;
 }
 .btn{
   text-decoration: none;
@@ -51,11 +61,25 @@ main li{
   padding-left: 10px;
   padding-right: 10px;
 }
-.offer{  
+.button{
+  text-align: center;
+  border: 1px solid #0061ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.jumbotron{
+  min-height: 740px;
+  background-color: #b4d0e7;
+}
+.offer{ 
   margin-top: 50px;
 }
 .card{
- border: 1px solid black;
+  padding: 10px;
+  border: 1px solid black;
+}
+.card-text{
+  padding: 10px;
 }
 .container{
   margin: 0 auto;
@@ -81,6 +105,11 @@ main li{
 .row.partner-features{
   flex-wrap: wrap; 
 }
+.row.offer{
+  justify-content: space-between;
+
+}
+
 .titolo{
   margin-bottom: 50px;
   font-weight: bold;
@@ -110,9 +139,10 @@ img{
   max-width: 100%;
 }
 .col-piano{
-  text-align: center;
+  max-width: 30%;
 }
 .col-features{
+  
   width: calc(100% / 3);
 }
 .col-piano.enterprise-bottom{
@@ -141,20 +171,13 @@ img{
   text-align: center;
 }
 .card-professional{
-  text-align: left;
+  
   padding-top: 20px;
   margin-inline: 10px;
 }
-.button{
-  text-align: center;
-  border: 1px solid #0061ff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.jumbotron{
-  min-height: 740px;
-  background-color: #b4d0e7;
-}
+
+/*# FOOTER */
+
 .container-footer{
   display: flex;
   margin: 0 auto; 
